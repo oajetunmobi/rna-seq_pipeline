@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Download FASTQ from SRA (e.g., using fasterq-dump)
+# Download FASTQ from SRA (using fasterq-dump)
 fasterq-dump SRR1234567 -O data/
 
 # Run FastQC
